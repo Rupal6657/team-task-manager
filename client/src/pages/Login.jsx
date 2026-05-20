@@ -9,7 +9,7 @@ function Login() {
   const handleLogin = async () => {
 
     const res = await axios.post(
-      "https://team-task-manager-mahj.onrender.com",
+      "https://team-task-manager-mahj.onrender.com/api/auth/login",
       {
         email,
         password

@@ -13,7 +13,7 @@ function Signup() {
   const handleSignup = async () => {
 
     await axios.post(
-      "https://team-task-manager-mahj.onrender.com",
+      "https://team-task-manager-mahj.onrender.com/api/auth/signup",
       form
     );
 
