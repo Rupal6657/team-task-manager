@@ -51,7 +51,15 @@ function Login() {
       >
         Login
       </button>
-
+<p className="mt-4">
+  Don't have an account?
+  <a
+    href="/signup"
+    className="text-blue-500 ml-2"
+  >
+    Signup
+  </a>
+</p>
     </div>
   );
 }
